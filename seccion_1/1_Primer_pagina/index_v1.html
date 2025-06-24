@@ -1,0 +1,36 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <style>
+        body{
+            background-color: aliceblue;
+        }
+    </style>
+
+</head>
+<body>
+    <div>
+        <h1 id="titulo-pagina" 
+        onmouseover="ponertitulorojo()"
+        onmouseout="quitartitulorojo()"
+        >  Bienvenido a Javascript</h1>
+        <h2>Primer paso es el mas grande</h2>
+        <p>Esta pagina es muy sencilla</p>
+        <p>Pero tiene un secreto >>> (Presiona F12)</p>
+    </div>
+    <Script>
+        function ponertitulorojo(){
+            document.getElementById("titulo-pagina").style = "color: red";
+        }
+            
+            function quitartitulorojo(){
+                document.getElementById("titulo-pagina").style = "color: black";
+            }
+    
+
+    </Script>
+
+</body>
+</html>
