@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="estilos.css">
+
+    <title>Calculadora</title>
+    <script src="Script.js" defer></script>
+</head>
+
+<body>
+   
+    <h1 class="Titulos">Calculadora</h1>
+    <br>
+  
+    <input type="number" class="Containers" id="Numero1"> <input type="number" class="Containers" id="Numero2">
+    <br>
+    <br>
+  
+    <button onclick="hacerSuma()" style="width: 7%; height: 35px; border-radius: 5px; padding: 10px;">+</button>
+
+    <button onclick="hacerResta()" style="width: 7%; height: 35px; border-radius: 5px; padding: 10px;">-</button>
+
+    <button onclick="hacerMultiplicacion()"
+     
+        style="width: 7%; height: 35px; border-radius: 5px; padding: 10px;">x</button>
+
+    <button onclick="hacerDivision()" style="width: 7%; height: 35px; border-radius: 5px; padding: 10px;">/</button>
+    <br>
+    <br>
+  
+    <button onclick="hacerRaiz()" class="Botones">Raiz</button>
+
+    <button onclick="hacerPotencia()" class="Botones">Potencia</button>
+    <br>
+    <br>
+ 
+    <button onclick="numeroAbsoluto()" class="Botones">Absoluto</button>
+
+    <button onclick="numeroAleatorio()" class="Botones">Random</button>
+    <br>
+  
+    <h1 class="Titulos">Resultado</h1>
+   
+    <div id="Contenido"></div>
+    <br>
+    
+    <button onclick="redondearCercano()" class="Botones">cercano</button>
+
+    <button onclick="redondearAbajo()" class="Botones">Abajo</button>
+    
+    <button onclick="redondearArriba()" class="Botones">Arriba</button>
+</body>
+
+</html>
