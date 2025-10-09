@@ -12,15 +12,15 @@ function Pelicula(Genero) {
     }
 
     switch (Genero) {
-        case 'Drama':
+        case 'Ciencia ficcion':
             if (Edad < 13) {
-                Pelicula = "Casa Blanca";
+                Pelicula = "Star Wars";
             } else
                 if (Edad >= 13 && Edad <= 15) {
-                    Pelicula = "The Shawshank Redemption";
+                    Pelicula = "Transformers";
                 } else
                     if (Edad >= 16) {
-                        Pelicula = "Taxi Driver";
+                        Pelicula = "El señor de los anillos";
                     } break;
 
         case 'Comedia':
@@ -29,22 +29,22 @@ function Pelicula(Genero) {
                 Pelicula = "Back to the Future";
             } else
                 if (Edad >= 13 && Edad <= 15) {
-                    Pelicula = "The Truman Show";
+                    Pelicula = "Son como niños";
                 } else
                     if (Edad >= 16) {
-                        Pelicula = "The Wolf of Wall Street";
+                        Pelicula = "Y donde estan las rubias?";
                     } break;
 
-        case 'Musical':
+        case 'Horror':
 
             if (Edad < 13) {
-                Pelicula = "La La Land ";
+                Pelicula = "No hay opciones";
             } else
                 if (Edad >= 13 && Edad <= 15) {
-                    Pelicula = "Les Misérables";
+                    Pelicula = "Viernes 13";
                 } else
                     if (Edad >= 16) {
-                        Pelicula = "The Rocky Horror Picture Show";
+                        Pelicula = "Terrifier";
                     } break;
 
         case 'Crimen':

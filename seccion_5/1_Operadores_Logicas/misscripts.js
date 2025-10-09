@@ -1,9 +1,15 @@
 function calcular() {
-    let elementoRespuesta1 = document.getElementById("respuesta1");
-    let elementoRespuesta2 = document.getElementById("respuesta2");
-    let elementoRespuesta3 = document.getElementById("respuesta3");
+    let elementoRespuesta1 =
+     document.getElementById("respuesta1");
+
+    let elementoRespuesta2 = 
+    document.getElementById("respuesta2");
+
+    let elementoRespuesta3 = 
+    document.getElementById("respuesta3");
  
-    let elementoEdad = document.getElementById("TextoEdad");
+    let elementoEdad =
+     document.getElementById("TextoEdad");
     let edad = elementoEdad.value;
  
     let puedeBeber = edad >= 18;
