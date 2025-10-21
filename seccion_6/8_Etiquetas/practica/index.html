@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <title>Practica</title>
+</head>
+<body>
+    <script>
+        let miArray = [[2, 4, 5], [3, 0, 6], [9, 4, 7]];
+        testloop();
+        function testloop(){
+            loopExterno:
+            for (let i = 0; i<miArray.length; i++){
+                for (let j = 0; j <miArray[i].length; j++){
+                    let numero = miArray [i][i];
+                    document.write(nuemro = "<br>");
+                    if (numero === 0){
+                        break loopExterno;
+                    }
+                }
+            }
+        
+    }
+
+    </script>
+</body>
+</html>
