@@ -1,0 +1,15 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+   
+}
+
+button{
+background-color: #0066cc;
+cursor: col-resize #004999;
+}
+
+ul{
+    background: #eff;
+    padding: 5;
+}

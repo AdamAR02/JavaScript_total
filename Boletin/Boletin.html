@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Boletín Estudiantil</title>
+  <link rel="stylesheet" href="Boletin.css">
+</head>
+<body>
+
+  <header>
+    <h1>Boletín</h1>
+    <h2>Nombre del Estudiante: Adam Avila</h2>
+    <img src="IMAGENES/CTP.jpeg" alt="Pulpa">
+   
+  </header>
+    <section id="lista-notas">
+      <h3>Notas del Estudiante:</h3>
+      <ul id="notas"></ul>
+  <h3>7</h3>
+  <h3>8</h3>
+  <h3>4</h3>
+  <h3>9</h3>
+  <h3>6</h3>
+    </section>
+
+    <section id="botones">
+      <button onclick="calcularPromedio()">Calcular Promedio</button>
+      <button onclick="notaMasAlta()">Buscar Nota Más Alta</button>
+      <button onclick="hayAplazados()">Verificar Aplazados</button>
+    </section>
+
+    <section id="resultados">
+      <h3>Resultados:</h3>
+      <p id="resultado"></p>
+    </section>
+  <script src="Boletin.js"></script>
+</body>
+</html>

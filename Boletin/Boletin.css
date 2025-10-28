@@ -1,0 +1,45 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f6f6f6;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+header {
+  background-color: #0077cc;
+  color: white;
+  padding: 20px;
+  border-bottom: 4px solid #005fa3;
+}
+
+li {
+  background: #e3f2fd;
+  margin: 5px auto;
+  padding: 10px;
+  width: 120px;
+  border-radius: 10px;
+}
+
+button {
+  margin: 10px;
+  padding: 10px 20px;
+  border: none;
+  background-color: #0077cc;
+  color: white;
+  border-radius: 8px;
+}
+
+#resultados {
+  background: #0077cc;
+  margin-top: 20px;
+  padding: 15px;
+  border-radius: 10px;
+  display: inline-block;
+  min-width: 250px;
+  color: white;
+}
+
+
+   
